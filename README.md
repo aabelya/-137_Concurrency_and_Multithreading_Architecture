@@ -17,7 +17,7 @@ Performance assessed as total CPU time vs execution time that have taken the thr
 
 ### Implementation notes
 - CustomSyncThreadSafeMap includes protection against ConcurrentModificationException based on absolutely horrendous space complexity :-)
-- CompletionService is used to run threads to catch
+- CompletionService is used to run threads to catch any occurring exceptions in either thread
 - Performance metrics dumped to csv during each run, all the following runs pick up existing csvs to print aggregated table
 
 ### Output from the last run (java 21)
@@ -82,7 +82,7 @@ Best execution time: ConcurrentHashMap on Java 11/17/21
 Java 11
 
 ### Implementation notes
-Implementation guarantees consistent calculations: sum and sqrt are always calculated for the same collection of number.
+Implementation guarantees consistent calculations: sum and sqrt are always calculated for the same collection of numbers.
 
 Deadlocks are avoided by making sure no threads acquire the same set of locks in different order:
 - sqrt calculation locks sqrtMutex, then result
@@ -130,7 +130,7 @@ Producers are started with 100 ms delay. Each producer produces 10 messages with
 Stats how many messages per topic were produced and consumed are printed at the end.
 
 ### Test run
-10 topics, 3 producers, 5 consumer - such modest numbers were used for the sake or generating a reasonably sized output, can be easily extended. Each consumer has up to 5 random topics assigned.
+10 topics, 3 producers, 5 consumer - such modest numbers were used for the sake or generating a reasonably sized output, numbers can be easily extended. Each consumer has up to 5 random topics assigned.
 
 ### Output beginning (fragment)
 ```
