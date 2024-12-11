@@ -1,0 +1,4 @@
+22:34:15.129 [main] DEBUG c.epam.task5.service.BankingService - Opening d358446d-b7e7-477a-9651-02591be1997b (USD) account with 50.00$$
+22:34:15.165 [main] DEBUG c.epam.task5.service.BankingService - Depositing 50.00$ to null
+22:34:15.322 [main] DEBUG c.epam.task5.service.BankingService - Building Mock for UUID, hashCode: 1821581506 account statement
+22:34:15.366 [main] DEBUG c.epam.task5.service.BankingService - Building acc_id account statement
