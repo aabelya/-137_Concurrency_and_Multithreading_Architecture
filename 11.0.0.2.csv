@@ -1,0 +1,20 @@
+11.0.0.2,Adder,Hash Map,CPU time,15625000,false
+11.0.0.2,Adder,Hash Map,Execution time,53869100,false
+11.0.0.2,SumCalculator,Hash Map,CPU time,15625000,false
+11.0.0.2,SumCalculator,Hash Map,Execution time,283300,false
+11.0.0.2,Adder,Concurrent Hash Map,CPU time,1312500000,true
+11.0.0.2,Adder,Concurrent Hash Map,Execution time,2385232100,true
+11.0.0.2,SumCalculator,Concurrent Hash Map,CPU time,1515625000,true
+11.0.0.2,SumCalculator,Concurrent Hash Map,Execution time,2929797200,true
+11.0.0.2,Adder,Synchronized Map,CPU time,0,false
+11.0.0.2,Adder,Synchronized Map,Execution time,1668000,false
+11.0.0.2,SumCalculator,Synchronized Map,CPU time,0,false
+11.0.0.2,SumCalculator,Synchronized Map,Execution time,497700,false
+11.0.0.2,Adder,Synchronized Map With A Fix,CPU time,593750000,true
+11.0.0.2,Adder,Synchronized Map With A Fix,Execution time,9513520800,true
+11.0.0.2,SumCalculator,Synchronized Map With A Fix,CPU time,6093750000,true
+11.0.0.2,SumCalculator,Synchronized Map With A Fix,Execution time,9784717800,true
+11.0.0.2,Adder,Custom Sync Thread Safe Map,CPU time,734375000,true
+11.0.0.2,Adder,Custom Sync Thread Safe Map,Execution time,4317724700,true
+11.0.0.2,SumCalculator,Custom Sync Thread Safe Map,CPU time,2078125000,true
+11.0.0.2,SumCalculator,Custom Sync Thread Safe Map,Execution time,4908451400,true

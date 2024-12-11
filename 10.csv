@@ -1,0 +1,20 @@
+10,Adder,Hash Map,CPU time,78125000,false
+10,Adder,Hash Map,Execution time,288810900,false
+10,SumCalculator,Hash Map,CPU time,62500000,false
+10,SumCalculator,Hash Map,Execution time,86911700,false
+10,Adder,Concurrent Hash Map,CPU time,1703125000,true
+10,Adder,Concurrent Hash Map,Execution time,3734814500,true
+10,SumCalculator,Concurrent Hash Map,CPU time,1921875000,true
+10,SumCalculator,Concurrent Hash Map,Execution time,4215056400,true
+10,Adder,Synchronized Map,CPU time,0,false
+10,Adder,Synchronized Map,Execution time,1322200,false
+10,SumCalculator,Synchronized Map,CPU time,0,false
+10,SumCalculator,Synchronized Map,Execution time,478000,false
+10,Adder,Synchronized Map With A Fix,CPU time,718750000,true
+10,Adder,Synchronized Map With A Fix,Execution time,10243947100,true
+10,SumCalculator,Synchronized Map With A Fix,CPU time,6562500000,true
+10,SumCalculator,Synchronized Map With A Fix,Execution time,10550213200,true
+10,Adder,Custom Sync Thread Safe Map,CPU time,1109375000,true
+10,Adder,Custom Sync Thread Safe Map,Execution time,7467467800,true
+10,SumCalculator,Custom Sync Thread Safe Map,CPU time,3265625000,true
+10,SumCalculator,Custom Sync Thread Safe Map,Execution time,8719761700,true

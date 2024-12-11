@@ -1,0 +1,20 @@
+1.8.0_432-432,Adder,Hash Map,CPU time,31250000,false
+1.8.0_432-432,Adder,Hash Map,Execution time,27671800,false
+1.8.0_432-432,SumCalculator,Hash Map,CPU time,0,false
+1.8.0_432-432,SumCalculator,Hash Map,Execution time,1869500,false
+1.8.0_432-432,Adder,Concurrent Hash Map,CPU time,1390625000,true
+1.8.0_432-432,Adder,Concurrent Hash Map,Execution time,7989023000,true
+1.8.0_432-432,SumCalculator,Concurrent Hash Map,CPU time,1156250000,true
+1.8.0_432-432,SumCalculator,Concurrent Hash Map,Execution time,8340184800,true
+1.8.0_432-432,Adder,Synchronized Map,CPU time,0,false
+1.8.0_432-432,Adder,Synchronized Map,Execution time,1168800,false
+1.8.0_432-432,SumCalculator,Synchronized Map,CPU time,0,false
+1.8.0_432-432,SumCalculator,Synchronized Map,Execution time,531200,false
+1.8.0_432-432,Adder,Synchronized Map With A Fix,CPU time,390625000,true
+1.8.0_432-432,Adder,Synchronized Map With A Fix,Execution time,11472356400,true
+1.8.0_432-432,SumCalculator,Synchronized Map With A Fix,CPU time,2734375000,true
+1.8.0_432-432,SumCalculator,Synchronized Map With A Fix,Execution time,11648246300,true
+1.8.0_432-432,Adder,Custom Sync Thread Safe Map,CPU time,671875000,true
+1.8.0_432-432,Adder,Custom Sync Thread Safe Map,Execution time,13014985100,true
+1.8.0_432-432,SumCalculator,Custom Sync Thread Safe Map,CPU time,1343750000,true
+1.8.0_432-432,SumCalculator,Custom Sync Thread Safe Map,Execution time,13414557400,true
